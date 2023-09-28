@@ -1,6 +1,6 @@
 /* new */
 public with sharing class AccountTriggerhandler {
-    public AccountTriggerhandler1() {
+    public static void AccountTriggerhandler1() {
         System.debug('this a method');
     }
 }
