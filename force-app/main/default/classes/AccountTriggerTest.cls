@@ -7,8 +7,8 @@ public with sharing class AccountTriggerTest {
         insert ac ; 
     }
     @isTest
-    public static testmethod1(){
-        ac = [Select id , name from Account WHERE name = 'Ankit'];
+    public static void testmethod1(){
+        Account ac = [Select id , name from Account WHERE name = 'Ankit'];
         AccountTriggerhandler.AccountTriggerhandler1();
     }
 }
